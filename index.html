@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Site pessoal de Matheus Fernandes: apresentação, formação, projetos e estudos em desenvolvimento web.">
+    <title>Matheus Fernandes — Site pessoal</title>
+  </head>
+  <body>
+    <header id="inicio">
+      <h1>Matheus Fernandes</h1>
+      <p>Olá! Este é meu site pessoal, um espaço para apresentar meus interesses e registrar meu aprendizado em desenvolvimento web.</p>
+
+      <figure>
+        <img src="imagens/desenvolvimento-web.svg" alt="Ilustração de um computador com símbolos de HTML e um caderno de estudos" width="300" height="200">
+        <figcaption>Tecnologia, estudos e novos projetos.</figcaption>
+      </figure>
+
+      <nav aria-label="Navegação principal">
+        <ul>
+          <li><a href="#sobre">Sobre mim</a></li>
+          <li><a href="#formacao">Formação acadêmica</a></li>
+          <li><a href="#projetos">Projetos e interesses</a></li>
+          <li><a href="#habilidades">Habilidades e tecnologias</a></li>
+          <li><a href="#perfis">Perfis</a></li>
+          <li><a href="#contato">Contato</a></li>
+        </ul>
+      </nav>
+      <hr>
+    </header>
+
+    <main>
+      <section id="sobre" aria-labelledby="titulo-sobre">
+        <h2 id="titulo-sobre">Sobre mim</h2>
+        <p>Tenho interesse em aprender como as páginas da web são construídas. Neste projeto, estou praticando a organização de informações com HTML e a criação de uma página pessoal.</p>
+        <p>Meu objetivo é evoluir este mesmo site ao longo das aulas: começar pela estrutura, depois aplicar estilos e, por fim, desenvolver um layout responsivo.</p>
+      </section>
+
+      <section id="formacao" aria-labelledby="titulo-formacao">
+        <h2 id="titulo-formacao">Formação acadêmica</h2>
+        <!-- Substitua os campos abaixo pelos dados acadêmicos do aluno. -->
+        <dl>
+          <dt>Curso</dt>
+          <dd>A informar.</dd>
+          <dt>Instituição de ensino</dt>
+          <dd>A informar.</dd>
+          <dt>Período ou previsão de conclusão</dt>
+          <dd>A informar.</dd>
+        </dl>
+        <p>Este site faz parte de uma atividade de desenvolvimento web, com foco inicial na estrutura e no conteúdo de documentos HTML.</p>
+      </section>
+
+      <section id="projetos" aria-labelledby="titulo-projetos">
+        <h2 id="titulo-projetos">Projetos e interesses</h2>
+        <article>
+          <h3>Meu primeiro site pessoal</h3>
+          <p>Uma página construída somente com HTML, com apresentação pessoal, navegação interna, imagem, listas, links e formulário de contato.</p>
+          <p>As próximas versões receberão CSS e recursos de layout responsivo, preservando a evolução no histórico do Git.</p>
+        </article>
+        <h3>Interesses de estudo</h3>
+        <ul>
+          <li>Estrutura e significado dos elementos HTML.</li>
+          <li>Acessibilidade e organização de conteúdo na web.</li>
+          <li>Versionamento de projetos com Git e GitHub.</li>
+        </ul>
+      </section>
+
+      <section id="habilidades" aria-labelledby="titulo-habilidades">
+        <h2 id="titulo-habilidades">Habilidades e tecnologias em estudo</h2>
+        <dl>
+          <dt>HTML</dt>
+          <dd>Estrutura de documentos, títulos, parágrafos, links, imagens, listas e formulários.</dd>
+          <dt>Git</dt>
+          <dd>Registro das alterações e acompanhamento das versões do projeto.</dd>
+          <dt>GitHub</dt>
+          <dd>Organização do repositório e publicação de páginas com GitHub Pages.</dd>
+        </dl>
+      </section>
+
+      <section id="perfis" aria-labelledby="titulo-perfis">
+        <h2 id="titulo-perfis">Perfis e links</h2>
+        <ul>
+          <li><a href="https://github.com/MatFernandex">Meu perfil no GitHub — MatFernandex</a></li>
+          <li><a href="https://github.com/MatFernandex/site-pessoal">Repositório deste site</a></li>
+        </ul>
+        <!-- Acrescente um link para o LinkedIn ou outros perfis pessoais, se desejar. -->
+      </section>
+
+      <section id="contato" aria-labelledby="titulo-contato">
+        <h2 id="titulo-contato">Contato</h2>
+        <!-- Substitua a informação abaixo por seu e-mail e um link mailto correspondente. -->
+        <p>E-mail para contato: a informar.</p>
+        <p id="aviso-formulario">Este formulário é demonstrativo. Nesta primeira versão, os dados não são enviados nem armazenados, e o botão de envio permanece desativado.</p>
+
+        <form aria-describedby="aviso-formulario">
+          <fieldset>
+            <legend>Deixe sua mensagem</legend>
+            <p>
+              <label for="nome">Nome (obrigatório)</label><br>
+              <input type="text" id="nome" name="nome" autocomplete="name" maxlength="100" required>
+            </p>
+            <p>
+              <label for="email">E-mail (obrigatório)</label><br>
+              <input type="email" id="email" name="email" autocomplete="email" maxlength="254" required>
+            </p>
+            <p>
+              <label for="mensagem">Mensagem (obrigatória)</label><br>
+              <textarea id="mensagem" name="mensagem" rows="5" cols="28" maxlength="2000" required></textarea>
+            </p>
+            <p>
+              <button type="submit" disabled>Enviar mensagem</button>
+              <button type="reset">Limpar campos</button>
+            </p>
+          </fieldset>
+        </form>
+      </section>
+    </main>
+
+    <hr>
+    <footer>
+      <p>Matheus Fernandes — Site pessoal — Etapa 1: HTML.</p>
+      <p><a href="#inicio">Voltar ao início</a></p>
+    </footer>
+  </body>
+</html>

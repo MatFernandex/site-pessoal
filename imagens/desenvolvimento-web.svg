@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="480" height="320" viewBox="0 0 480 320" role="img" aria-labelledby="titulo descricao">
+  <title id="titulo">Estudos em desenvolvimento web</title>
+  <desc id="descricao">Um computador com símbolos de HTML na tela ao lado de um caderno e um lápis.</desc>
+  <rect width="480" height="320" rx="24" fill="#edf3f8"/>
+  <circle cx="393" cy="78" r="37" fill="#d4e3f0"/>
+  <rect x="43" y="65" width="280" height="176" rx="12" fill="#253c54"/>
+  <rect x="55" y="77" width="256" height="144" rx="3" fill="#ffffff"/>
+  <rect x="55" y="77" width="256" height="24" fill="#d4e3f0"/>
+  <circle cx="69" cy="89" r="4" fill="#587e9f"/>
+  <circle cx="84" cy="89" r="4" fill="#587e9f"/>
+  <circle cx="99" cy="89" r="4" fill="#587e9f"/>
+  <path d="M123 136 L95 155 L123 174 M241 136 L269 155 L241 174 M199 122 L171 188" fill="none" stroke="#2b668c" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M164 241 L158 264 L209 264 L203 241" fill="#253c54"/>
+  <rect x="133" y="262" width="100" height="10" rx="5" fill="#253c54"/>
+  <rect x="343" y="147" width="87" height="121" rx="6" fill="#b57c45"/>
+  <rect x="353" y="147" width="77" height="113" rx="4" fill="#fff8ea"/>
+  <path d="M365 169 H417 M365 184 H417 M365 199 H407 M365 214 H417 M365 229 H400" stroke="#c7b693" stroke-width="3"/>
+  <path d="M440 147 L449 149 L432 242 L425 252 L423 240 Z" fill="#dcad4b"/>
+  <path d="M425 252 L423 240 L432 242 Z" fill="#253c54"/>
+  <path d="M33 276 H450" stroke="#bbcddd" stroke-width="4" stroke-linecap="round"/>
+</svg>
